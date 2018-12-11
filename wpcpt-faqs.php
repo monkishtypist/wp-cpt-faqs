@@ -9,7 +9,7 @@ Description: Adds custom post type for frequently asked questions (FAQs).
 Version: 1.0.0
 Author: @monkishtypist
 Author URI: https://www.monkishtypist.com/
-License: GPLv2 or later
+License: GPLv3
 Text Domain: mt_wpcpt_faqs
 */
 

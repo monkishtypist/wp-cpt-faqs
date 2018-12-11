@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 ### Updated
+- Updated `README.md` with usage and composer details
+
 ### Removed
 
 ## [1.0.1] - 2018-12-10

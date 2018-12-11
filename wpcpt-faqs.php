@@ -6,7 +6,7 @@
 Plugin Name: Custom Post Type: FAQs
 Plugin URI: https://github.com/monkishtypist/wpcpt-faqs
 Description: Adds custom post type for frequently asked questions (FAQs).
-Version: 1.0.0
+Version: 1.0.2
 Author: @monkishtypist
 Author URI: https://www.monkishtypist.com/
 License: GPLv3
@@ -19,7 +19,7 @@ if ( !function_exists( 'add_action' ) ) {
 	exit;
 }
 
-define( 'MT_WPCPT_FAQS__VERSION', '1.0.0' );
+define( 'MT_WPCPT_FAQS__VERSION', '1.0.2' );
 define( 'MT_WPCPT_FAQS__MINIMUM_WP_VERSION', '4.0' );
 define( 'MT_WPCPT_FAQS__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MT_WPCPT_FAQS__TEXTDOMAIN', 'wpcpt-faqs' );

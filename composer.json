@@ -1,14 +1,17 @@
 {
     "name": "monkishtypist/wpcpt-faqs",
     "description": "WordPress Custom Post Type: FAQs",
+    "keywords": ["wordpress", "custom post type", "frequently asked questions", "faq"],
+    "homepage": "https://github.com/monkishtypist/wpcpt-faqs",
+    "authors": [
+        {
+        	"name": "Tim Spinks",
+            "homepage": "https://github.com/monkishtypist/"
+        }
+    ],
     "type": "wordpress-plugin",
     "require": {
         "php": ">=5.6"
     },
-    "license": "GPLv3",
-    "authors": [
-        {
-        	"name": "Tim Spinks"
-        }
-    ]
+    "license": "GPLv3"
 }

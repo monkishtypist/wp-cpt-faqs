@@ -15,27 +15,31 @@ You can add the plugin to your install via composer using the following:
 ```json
 {
 	"repositories": [
+		...
 		{
 			"type": "vcs",
 			"url": "https://github.com/monkishtypist/wpcpt-faqs"
 		}
+		...
 	],
 	"require": [
+		...
 		{
 			"monkishtypist/wpcpt-faqs": "^v1.0.1",
 		}
+		...
 	]
 }
 ```
 
 ## Shortcode Usage
 Insert the following shortcode into your page or post to add a Bootstrap accordion of your FAQs:
-`[faqs cat=5 id="100, 102, 103" exclude="104, 105"]`
+`[faqs cat="5, 6" id="100, 102, 103" exclude="104, 105"]`
 
-- `cat=N` displays all FAQs from a specific category or categories, where N is the category ID or IDs (comma separated list)
+- `cat=N` displays all FAQs from specified category(ies)
 - `id=N` includes only FAQs with the listed ID(s)
 - `exclude=N` excludes FAQs with the listed ID(s)
-- If you combine `cat` and `id`, only FAQs meeting both criteria are included.
+- If you combine `cat` and `id`, only FAQs matching both criteria are included.
 
 
 [Bootstrap Accordions]: https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example

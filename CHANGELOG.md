@@ -10,8 +10,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Updated `README.md` with usage and composer details
 - `composer.json` details
 - Release version naming convention removed "v" prefix
+- Shortcode HTML updates
 
 ### Removed
+
+## [1.0.2] - 2018-12-12
+### Updated
+- Updated `README.md` with usage and composer details
+- `composer.json` details
+- Release version naming convention removed "v" prefix
+- Shortcode HTML updates
 
 ## [1.0.1] - 2018-12-10
 ### Added
@@ -32,7 +40,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial release
 
 
-[Unreleased]: https://github.com/monkishtypist/wpcpt-faqs/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/monkishtypist/wpcpt-faqs/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.2
 [1.0.1]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.1
 [1.0.0]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.0
 [0.1.0]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/0.1.0

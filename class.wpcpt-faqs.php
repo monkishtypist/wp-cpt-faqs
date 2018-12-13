@@ -230,9 +230,9 @@ if ( ! class_exists( 'MT_WPCPT_FAQS' ) ) :
 					<?php $i = 0; foreach ($posts as $post) { ?>
 						<div class="card" data-card="<?php echo $i; ?>">
 							<div class="card-header" id="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'card-header', $i ); ?>">
-								<h5 class="mb-0">
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" aria-expanded="true" aria-controls="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>"><?php echo get_the_title( $post->ID ); ?></button>
-								</h5>
+								<h4 class="mb-0">
+									<a class="" data-toggle="collapse" data-target="#<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" aria-expanded="true" aria-controls="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>"><?php echo get_the_title( $post->ID ); ?></a>
+								</h4>
 							</div>
 							<div id="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" class="collapse <?php echo ( $a['show'] && $i === 0 ? 'show' : '' ); ?>" aria-labelledby="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'card-header', $i ); ?>" data-parent="#<?php echo $accordion_id; ?>">
 								<div class="card-body">

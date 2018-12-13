@@ -15,19 +15,15 @@ You can add the plugin to your install via composer using the following:
 ```json
 {
 	"repositories": [
-		...
 		{
 			"type": "vcs",
 			"url": "https://github.com/monkishtypist/wpcpt-faqs"
 		}
-		...
 	],
 	"require": [
-		...
 		{
 			"monkishtypist/wpcpt-faqs": "^v1.0.1",
 		}
-		...
 	]
 }
 ```

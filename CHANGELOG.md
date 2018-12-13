@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Updated
 ### Removed
 
+## [1.0.4] - 2018-12-13
+### Updated
+- Class bug fix
+
 ## [1.0.3] - 2018-12-13
 ### Updated
 - Updated `collapse` CSS classes for shown accordion object
@@ -39,7 +43,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial release
 
 
-[Unreleased]: https://github.com/monkishtypist/wpcpt-faqs/compare/1.0.3...HEAD
+[Unreleased]: https://github.com/monkishtypist/wpcpt-faqs/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.4
 [1.0.3]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.3
 [1.0.2]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.2
 [1.0.1]: https://github.com/monkishtypist/wpcpt-faqs/releases/tag/1.0.1

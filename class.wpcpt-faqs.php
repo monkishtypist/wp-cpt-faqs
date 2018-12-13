@@ -231,7 +231,7 @@ if ( ! class_exists( 'MT_WPCPT_FAQS' ) ) :
 						<div class="card" data-card="<?php echo $i; ?>">
 							<div class="card-header" id="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'card-header', $i ); ?>">
 								<h4 class="mb-0">
-									<a class="" data-toggle="<?php echo ( $a['show'] && $i === 0 ? 'collapse' : 'collapsed' ); ?>" data-target="#<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" aria-expanded="true" aria-controls="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>"><?php echo get_the_title( $post->ID ); ?></a>
+									<a class="<?php echo ( $a['show'] && $i === 0 ? '' : 'collapsed' ); ?>" data-toggle="collapse" data-target="#<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" aria-expanded="true" aria-controls="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>"><?php echo get_the_title( $post->ID ); ?></a>
 								</h4>
 							</div>
 							<div id="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'collapse', $i ); ?>" class="collapse <?php echo ( $a['show'] && $i === 0 ? 'show' : '' ); ?>" aria-labelledby="<?php echo sprintf( '%1$s__%2$s__%3$s', $accordion_id, 'card-header', $i ); ?>" data-parent="#<?php echo $accordion_id; ?>">
